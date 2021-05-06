@@ -40,7 +40,7 @@ off() ->
       io:format("Invalid Input.~n")
   end.
 defrosting(Time) ->
-  io:format("Toasting..~n"),
+  io:format("Toasting...~n"),
   receive
     cancel ->
       pop();
@@ -74,7 +74,7 @@ toasting(Time) ->
   end.
 
 pop() ->
-  io:format("Bead toasted~n"),
+  io:format("Bread toasted~n"),
   off().
 
 
